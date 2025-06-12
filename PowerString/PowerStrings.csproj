@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>If you work with big data and the garbage collector is too slow, PowerString might be THE tool for you. Slower than string, but more efficient for big data.</Description>
+    <Copyright>©2020 by Fabian Schlüter</Copyright>
+    <PackageProjectUrl>https://github.com/Fabian2000/PowerString</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Fabian2000/PowerString.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>String, Unmanaged, Efficient</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Title>PowerStrings</Title>
+    <Authors>Fabian Schlüter</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
