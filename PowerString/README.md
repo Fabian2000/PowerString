@@ -198,22 +198,3 @@ PowerString instances are **not thread-safe**. Each thread should use its own Po
 1. **Manual disposal required** - Must use `using` or call `Dispose()` explicitly
 2. **Not suitable for simple operations** - Regular strings are faster for basic tasks
 3. **No automatic interning** - Unlike string literals
-
-## Contributing
-
-Contributions are welcome! Please ensure that:
-- All memory allocations are properly cleaned up
-- Exception safety is maintained
-- Performance implications are documented
-- Unit tests cover new functionality
-
-## License
-
-[Your License Here]
-
-## Acknowledgments
-
-Built with modern .NET features including:
-- `System.Runtime.InteropServices.NativeMemory`
-- `ReadOnlySpan<T>` and `Span<T>`
-- Unsafe C# for native memory access
