@@ -5,8 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1.0</Version>
+    <PackageVersion>1.0.1.0</PackageVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>If you work with big data and the garbage collector is too slow, PowerString might be THE tool for you. Slower than string, but more efficient for big data.</Description>
     <Copyright>©2020 by Fabian Schlüter</Copyright>
